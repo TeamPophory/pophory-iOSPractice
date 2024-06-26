@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BC648FD2C2C53CD000BDAFA /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BC648FC2C2C53CD000BDAFA /* Colors.xcassets */; };
 		3BFF3CF32C2C4F04001460A7 /* PophoryPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFF3CF22C2C4F04001460A7 /* PophoryPracticeApp.swift */; };
 		3BFF3CF52C2C4F04001460A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFF3CF42C2C4F04001460A7 /* ContentView.swift */; };
 		3BFF3CF72C2C4F05001460A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BFF3CF62C2C4F05001460A7 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3BC648FC2C2C53CD000BDAFA /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		3BFF3CEF2C2C4F04001460A7 /* PophoryPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PophoryPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BFF3CF22C2C4F04001460A7 /* PophoryPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PophoryPracticeApp.swift; sourceTree = "<group>"; };
 		3BFF3CF42C2C4F04001460A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				3BFF3CF82C2C4F05001460A7 /* Preview Content */,
 				3BFF3D1C2C2C5012001460A7 /* JoonView.swift */,
 				3BFF3D1E2C2C501A001460A7 /* YunseoView.swift */,
+				3BC648FC2C2C53CD000BDAFA /* Colors.xcassets */,
 			);
 			path = PophoryPractice;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BC648FD2C2C53CD000BDAFA /* Colors.xcassets in Resources */,
 				3BFF3CFA2C2C4F05001460A7 /* Preview Assets.xcassets in Resources */,
 				3BFF3CF72C2C4F05001460A7 /* Assets.xcassets in Resources */,
 			);
