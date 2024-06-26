@@ -14,6 +14,8 @@
 		3BFF3D042C2C4F05001460A7 /* PophoryPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFF3D032C2C4F05001460A7 /* PophoryPracticeTests.swift */; };
 		3BFF3D0E2C2C4F06001460A7 /* PophoryPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFF3D0D2C2C4F06001460A7 /* PophoryPracticeUITests.swift */; };
 		3BFF3D102C2C4F06001460A7 /* PophoryPracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFF3D0F2C2C4F06001460A7 /* PophoryPracticeUITestsLaunchTests.swift */; };
+		3BFF3D1D2C2C5012001460A7 /* JoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFF3D1C2C2C5012001460A7 /* JoonView.swift */; };
+		3BFF3D1F2C2C501A001460A7 /* YunseoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFF3D1E2C2C501A001460A7 /* YunseoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		3BFF3D092C2C4F06001460A7 /* PophoryPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PophoryPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BFF3D0D2C2C4F06001460A7 /* PophoryPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PophoryPracticeUITests.swift; sourceTree = "<group>"; };
 		3BFF3D0F2C2C4F06001460A7 /* PophoryPracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PophoryPracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3BFF3D1C2C2C5012001460A7 /* JoonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoonView.swift; sourceTree = "<group>"; };
+		3BFF3D1E2C2C501A001460A7 /* YunseoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YunseoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				3BFF3CF42C2C4F04001460A7 /* ContentView.swift */,
 				3BFF3CF62C2C4F05001460A7 /* Assets.xcassets */,
 				3BFF3CF82C2C4F05001460A7 /* Preview Content */,
+				3BFF3D1C2C2C5012001460A7 /* JoonView.swift */,
+				3BFF3D1E2C2C501A001460A7 /* YunseoView.swift */,
 			);
 			path = PophoryPractice;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BFF3CF52C2C4F04001460A7 /* ContentView.swift in Sources */,
+				3BFF3D1F2C2C501A001460A7 /* YunseoView.swift in Sources */,
+				3BFF3D1D2C2C5012001460A7 /* JoonView.swift in Sources */,
 				3BFF3CF32C2C4F04001460A7 /* PophoryPracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
