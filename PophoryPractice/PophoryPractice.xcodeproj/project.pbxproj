@@ -10,6 +10,7 @@
 		3BA899812C3E735A002C4213 /* albumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA899802C3E735A002C4213 /* albumModel.swift */; };
 		3BA899842C3E7AF7002C4213 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA899832C3E7AF7002C4213 /* HomeView.swift */; };
 		3BA899862C3E7BB8002C4213 /* SelectAlbumCoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA899852C3E7BB8002C4213 /* SelectAlbumCoverView.swift */; };
+		3BA899882C3E8F46002C4213 /* AlbumIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA899872C3E8F46002C4213 /* AlbumIconView.swift */; };
 		3BC648FD2C2C53CD000BDAFA /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BC648FC2C2C53CD000BDAFA /* Colors.xcassets */; };
 		3BFF3CF32C2C4F04001460A7 /* PophoryPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFF3CF22C2C4F04001460A7 /* PophoryPracticeApp.swift */; };
 		3BFF3CF52C2C4F04001460A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFF3CF42C2C4F04001460A7 /* ContentView.swift */; };
@@ -43,6 +44,7 @@
 		3BA899802C3E735A002C4213 /* albumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = albumModel.swift; sourceTree = "<group>"; };
 		3BA899832C3E7AF7002C4213 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		3BA899852C3E7BB8002C4213 /* SelectAlbumCoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAlbumCoverView.swift; sourceTree = "<group>"; };
+		3BA899872C3E8F46002C4213 /* AlbumIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumIconView.swift; sourceTree = "<group>"; };
 		3BC648FC2C2C53CD000BDAFA /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		3BFF3CEF2C2C4F04001460A7 /* PophoryPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PophoryPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BFF3CF22C2C4F04001460A7 /* PophoryPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PophoryPracticeApp.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			children = (
 				3BA899832C3E7AF7002C4213 /* HomeView.swift */,
 				3BA899852C3E7BB8002C4213 /* SelectAlbumCoverView.swift */,
+				3BA899872C3E8F46002C4213 /* AlbumIconView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				3BFF3CF52C2C4F04001460A7 /* ContentView.swift in Sources */,
 				3BFF3D1F2C2C501A001460A7 /* YunseoView.swift in Sources */,
 				3BFF3D1D2C2C5012001460A7 /* JoonView.swift in Sources */,
+				3BA899882C3E8F46002C4213 /* AlbumIconView.swift in Sources */,
 				3BA899842C3E7AF7002C4213 /* HomeView.swift in Sources */,
 				3BA899812C3E735A002C4213 /* albumModel.swift in Sources */,
 				3BA899862C3E7BB8002C4213 /* SelectAlbumCoverView.swift in Sources */,

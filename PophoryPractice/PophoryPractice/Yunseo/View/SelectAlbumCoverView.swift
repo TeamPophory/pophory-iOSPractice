@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SelectAlbumCoverView: View {
-    @State private var selectedIcon: AlbumIconModel?
+    @State private var selectedIcon: UUID = AlbumIconModel.albumIcons.first!.id
     let rows = [GridItem(.flexible())]
     
     var body: some View {
@@ -17,9 +17,9 @@ struct SelectAlbumCoverView: View {
             
             LazyHGrid(rows: rows, spacing: 18) {
                 ForEach(AlbumIconModel.albumIcons, id: \.id) { element in
-                    element.iconImage
+                    AlbumIconView(isSelectedIcon: $selectedIcon, element: element)
                         .onTapGesture {
-                            selectedIcon = element
+                            selectedIcon = element.id
                         }
                 }
             }
