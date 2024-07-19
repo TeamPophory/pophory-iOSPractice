@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		370B477C2C49440F009ABEAC /* JoonHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370B477B2C49440F009ABEAC /* JoonHomeView.swift */; };
+		37DCCE062C2D397F00BF3234 /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DCCE052C2D397F00BF3234 /* ButtonsView.swift */; };
+		37DF0FC02C2E90D000F59FAC /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DF0FBF2C2E90D000F59FAC /* UIView+Extension.swift */; };
+		37DF0FC22C2E912000F59FAC /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DF0FC12C2E912000F59FAC /* RoundedCorner.swift */; };
 		3BC648FD2C2C53CD000BDAFA /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BC648FC2C2C53CD000BDAFA /* Colors.xcassets */; };
 		3BFF3CF32C2C4F04001460A7 /* PophoryPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFF3CF22C2C4F04001460A7 /* PophoryPracticeApp.swift */; };
 		3BFF3CF52C2C4F04001460A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFF3CF42C2C4F04001460A7 /* ContentView.swift */; };
@@ -37,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		370B477B2C49440F009ABEAC /* JoonHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoonHomeView.swift; sourceTree = "<group>"; };
+		37DCCE052C2D397F00BF3234 /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
+		37DF0FBF2C2E90D000F59FAC /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		37DF0FC12C2E912000F59FAC /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
 		3BC648FC2C2C53CD000BDAFA /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		3BFF3CEF2C2C4F04001460A7 /* PophoryPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PophoryPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BFF3CF22C2C4F04001460A7 /* PophoryPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PophoryPracticeApp.swift; sourceTree = "<group>"; };
@@ -107,6 +115,9 @@
 				3BFF3D1C2C2C5012001460A7 /* JoonView.swift */,
 				3BFF3D1E2C2C501A001460A7 /* YunseoView.swift */,
 				3BC648FC2C2C53CD000BDAFA /* Colors.xcassets */,
+				37DCCE052C2D397F00BF3234 /* ButtonsView.swift */,
+				37DF0FBF2C2E90D000F59FAC /* UIView+Extension.swift */,
+				37DF0FC12C2E912000F59FAC /* RoundedCorner.swift */,
 			);
 			path = PophoryPractice;
 			sourceTree = "<group>";
@@ -115,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				3BFF3CF92C2C4F05001460A7 /* Preview Assets.xcassets */,
+				370B477B2C49440F009ABEAC /* JoonHomeView.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -268,9 +280,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BFF3CF52C2C4F04001460A7 /* ContentView.swift in Sources */,
+				37DCCE062C2D397F00BF3234 /* ButtonsView.swift in Sources */,
+				37DF0FC02C2E90D000F59FAC /* UIView+Extension.swift in Sources */,
 				3BFF3D1F2C2C501A001460A7 /* YunseoView.swift in Sources */,
 				3BFF3D1D2C2C5012001460A7 /* JoonView.swift in Sources */,
 				3BFF3CF32C2C4F04001460A7 /* PophoryPracticeApp.swift in Sources */,
+				37DF0FC22C2E912000F59FAC /* RoundedCorner.swift in Sources */,
+				370B477C2C49440F009ABEAC /* JoonHomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
