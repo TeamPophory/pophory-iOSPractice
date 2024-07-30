@@ -9,13 +9,20 @@ import SwiftUI
 
 struct YunseoView: View {
     var body: some View {
-        NavigationStack {
-            NavigationLink(destination: SelectAlbumCoverView()) {
-                HomeView()
-            }
-            .navigationTitle("Pophory")
-            .navigationBarTitleDisplayMode(.automatic)
-        }
+		TabView {
+			HomeView()
+				.tabItem {
+					Image(uiImage: .checkmark)
+					Text("내 서랍")
+				}
+			
+			MyPageView()
+				.tabItem {
+					Image(uiImage: .strokedCheckmark)
+					Text("마이")
+				}
+		}
+		.tint(.purple)
     }
 }
 
