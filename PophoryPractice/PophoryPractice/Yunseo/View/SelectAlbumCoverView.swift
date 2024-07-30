@@ -9,6 +9,7 @@ import SwiftUI
 
 struct SelectAlbumCoverView: View {
     @State private var selectedIcon: UUID = AlbumIconModel.albumIcons.first!.id
+    @Environment(\.dismiss) private var dismiss
     let rows = [GridItem(.flexible())]
     
     var body: some View {
@@ -24,7 +25,6 @@ struct SelectAlbumCoverView: View {
                 }
             }
             .frame(width: .infinity, height: 50)
-            .background(Color.gray)
             
             Spacer()
             
@@ -41,12 +41,22 @@ struct SelectAlbumCoverView: View {
                                       style: .circular)
                             )
                             .frame(width: 280, height: 380)
-                        
                     }
                 })
+				.padding([.leading, .trailing], 48)
             }
+			.scrollIndicators(.hidden, axes: .horizontal)
             .frame(width: .infinity, height: 380)
-            .background(Color.red)
+            
+            Spacer()
+            
+            Button(action: {
+                dismiss()
+            }, label: {
+                Text("수정하기")
+            })
+			.buttonStyle(PophoryButton())
+			.frame(width: 335)
             
             Spacer()
         }
