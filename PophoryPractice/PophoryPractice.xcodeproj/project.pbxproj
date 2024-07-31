@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3B2842F42C4944D500873964 /* pophoryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2842F32C4944D500873964 /* pophoryButton.swift */; };
 		3B33A4FA2C58EC0200CE376C /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B33A4F92C58EC0200CE376C /* OnboardingView.swift */; };
+		3B9417432C5A5727002DAE37 /* PophoryTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9417422C5A5727002DAE37 /* PophoryTabView.swift */; };
+		3B9417462C5A5B75002DAE37 /* LoggedStateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9417452C5A5B75002DAE37 /* LoggedStateModel.swift */; };
 		3BA899812C3E735A002C4213 /* albumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA899802C3E735A002C4213 /* albumModel.swift */; };
 		3BA899842C3E7AF7002C4213 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA899832C3E7AF7002C4213 /* HomeView.swift */; };
 		3BA899862C3E7BB8002C4213 /* SelectAlbumCoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA899852C3E7BB8002C4213 /* SelectAlbumCoverView.swift */; };
@@ -47,6 +49,8 @@
 /* Begin PBXFileReference section */
 		3B2842F32C4944D500873964 /* pophoryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pophoryButton.swift; sourceTree = "<group>"; };
 		3B33A4F92C58EC0200CE376C /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		3B9417422C5A5727002DAE37 /* PophoryTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PophoryTabView.swift; sourceTree = "<group>"; };
+		3B9417452C5A5B75002DAE37 /* LoggedStateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedStateModel.swift; sourceTree = "<group>"; };
 		3BA899802C3E735A002C4213 /* albumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = albumModel.swift; sourceTree = "<group>"; };
 		3BA899832C3E7AF7002C4213 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		3BA899852C3E7BB8002C4213 /* SelectAlbumCoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAlbumCoverView.swift; sourceTree = "<group>"; };
@@ -101,6 +105,22 @@
 			path = Onboarding;
 			sourceTree = "<group>";
 		};
+		3B9417412C5A571C002DAE37 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				3B9417422C5A5727002DAE37 /* PophoryTabView.swift */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
+		3B9417442C5A5B66002DAE37 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B9417452C5A5B75002DAE37 /* LoggedStateModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		3BA8997F2C3E734E002C4213 /* Yunseo */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +133,8 @@
 		3BA899822C3E7AEE002C4213 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3B9417442C5A5B66002DAE37 /* Model */,
+				3B9417412C5A571C002DAE37 /* TabView */,
 				3B33A4F82C58EB5400CE376C /* Onboarding */,
 				3BA899832C3E7AF7002C4213 /* HomeView.swift */,
 				3BA899852C3E7BB8002C4213 /* SelectAlbumCoverView.swift */,
@@ -317,6 +339,7 @@
 			files = (
 				3BFF3CF52C2C4F04001460A7 /* ContentView.swift in Sources */,
 				3BFF3D1F2C2C501A001460A7 /* YunseoView.swift in Sources */,
+				3B9417432C5A5727002DAE37 /* PophoryTabView.swift in Sources */,
 				3BFF3D1D2C2C5012001460A7 /* JoonView.swift in Sources */,
 				3BA899882C3E8F46002C4213 /* AlbumIconView.swift in Sources */,
 				3BA899842C3E7AF7002C4213 /* HomeView.swift in Sources */,
@@ -325,6 +348,7 @@
 				3BEA3C532C57E49C00F55311 /* MyPageView.swift in Sources */,
 				3BEA3C552C57E5CC00F55311 /* AlbumDetailView.swift in Sources */,
 				3B33A4FA2C58EC0200CE376C /* OnboardingView.swift in Sources */,
+				3B9417462C5A5B75002DAE37 /* LoggedStateModel.swift in Sources */,
 				3BFF3CF32C2C4F04001460A7 /* PophoryPracticeApp.swift in Sources */,
 				3B2842F42C4944D500873964 /* pophoryButton.swift in Sources */,
 			);

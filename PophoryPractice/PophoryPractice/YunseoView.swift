@@ -8,24 +8,20 @@
 import SwiftUI
 
 struct YunseoView: View {
+	@EnvironmentObject var appState: AppState
+	
     var body: some View {
-		TabView {
-			HomeView()
-				.tabItem {
-					Image(uiImage: .checkmark)
-					Text("내 서랍")
-				}
-			
-			MyPageView()
-				.tabItem {
-					Image(uiImage: .strokedCheckmark)
-					Text("마이")
-				}
+		Group {
+			if appState.isLoggedIn {
+				PophoryTabView()
+			} else {
+				OnboardingView()
+			}
 		}
-		.tint(.purple)
     }
 }
 
 #Preview {
     YunseoView()
+		.environmentObject(AppState())
 }

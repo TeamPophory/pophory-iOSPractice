@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+	@EnvironmentObject private var appState: AppState
+	
     var body: some View {
         YunseoView()
     }
@@ -15,4 +17,5 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
+		.environmentObject(AppState())
 }

@@ -15,6 +15,7 @@ struct OnboardingView: View {
 		Image(.imgOnboarding04),
 	]
 	@State private var selectedIndex = 0
+	@EnvironmentObject private var appState: AppState
 	@GestureState private var dragAmount = CGSize.zero
 	
 	var body: some View {
@@ -37,14 +38,14 @@ struct OnboardingView: View {
 						.frame(width: 9, height: 9)
 				}
 			}
-		
+			
 			Text("SNS로 간편가입하기!")
 				.foregroundStyle(.gray500)
 				.font(.system(size: 16))
 				.padding(.top, 42)
 			
 			Button("AppleID로 시작하기") {
-				print("로그인 로직")
+				appState.isLoggedIn = true
 			}
 			.buttonStyle(PophoryButton())
 			.padding([.leading, .trailing], 20)
